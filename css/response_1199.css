@@ -1,0 +1,78 @@
+@media (max-width: 1199px){
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont{
+        padding: 15px 30px;
+    }
+
+    header .menu .item + .item{
+        margin-left: 30px;
+    }
+
+    header .order_now{
+        margin-left: 50px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .data .col_l{
+        padding-top: 60px;
+    }
+
+    .first_section .title{
+        font-size: 62px;
+    }
+
+
+    .sect_slim .item .text_block{
+        margin-left: 180px;
+    }
+
+
+    .universal_gift .col_l{
+        width: 450px;
+    }
+
+    .universal_gift .col_r{
+        width: calc(100% - 490px);
+    }
+
+    .universal_gift .text_block{
+        margin-top: 20px;
+    }
+
+    .universal_gift .box_img .img_abs{
+        bottom: 49px;
+        left: -128px;
+    }
+
+
+    .trim_pocket .box{
+        padding-right: 240px;
+    }
+
+
+    .why_choose .items{
+        --margin-bottom: 0;
+        --margin-left: 30px;
+    }
+
+
+    .product_info .main_title{
+        font-size: 50px;
+    }
+
+    .product_info .benefits ul{
+        --items: 2;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+}
